@@ -18,7 +18,7 @@ Este é um projeto **Django** chamado **My Polls**, que permite a criação, ger
 ### **1️⃣ Clone o repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/my_polls.git
+git clone https://github.com/robertdiasmelo/my_polls.git
 cd my_polls
 ```
 
