@@ -1,2 +1,52 @@
+# 🛠️ Ambiente Virtual (venv)
 venv/
-__pycache__
+env/
+
+# 🔧 Configurações do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🏗️ Arquivos de Build
+build/
+dist/
+*.egg-info/
+
+# 📂 Banco de Dados SQLite
+db.sqlite3
+db.sqlite3-journal
+
+# 🔒 Configurações Sensíveis (exemplo, se usar .env para segredos)
+.env
+*.env
+
+# 📦 Dependências e Pacotes
+*.log
+*.pot
+*.pyc
+*.swp
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🚀 Configuração de Deploy (Exemplo para Heroku)
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# 📸 Arquivos de Mídia e Uploads
+media/
+staticfiles/
+
+# 🔍 Arquivos do IDE (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.iml
+
+# 🔗 Node.js (Se estiver usando com Django)
+node_modules/
+npm-debug.log
+
+# 🛠️ Arquivos do Docker (se estiver usando)
+docker-compose.override.yml
